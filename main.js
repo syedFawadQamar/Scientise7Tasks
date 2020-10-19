@@ -107,14 +107,183 @@
 // console.log(demo(12));
 // console.log(demo(55));
 
-function demo(n1,n2){
-    if(n1 == n2){
-        return(n1 + n2) *3
-    }
-    else{
-        return(n1 + n2) 
-    }
-}
+// function demo(n1,n2){
+//     if(n1 == n2){
+//         return(n1 + n2) *3
+//     }
+//     else{
+//         return(n1 + n2) 
+//     }
+// }
 
-console.log(demo(2,2));
-console.log(demo(2,4))
+// console.log(demo(2,2));
+// console.log(demo(2,4))
+
+// function demo(n1,n2)
+// {
+//     if(n1 == 50 || n2 == 50){
+//         return(true)
+//     }
+
+//     else
+//     {
+//         (n1 + n2 == 50)
+//     return(true)
+
+        
+//     }
+    
+// }
+
+// console.log(demo(2,3));
+
+// function demo(n1,n2){
+//     return( n1 == 50 || n2 == 50) ||(n1 + n2 == 50)
+// }
+
+// console.log(demo(2,3))
+// console.log(demo(50,55))
+// console.log(demo(20,30))
+
+// function demo(n){
+//     if(n<=19){
+//         return(19 -n);
+//     }
+//     else{
+//         return(n - 19) * 3;
+//     }
+// }
+
+// console.log(demo(20));
+// console.log(demo(9));
+
+// function demo(x,y){
+//     if((x<0 && y>0 || y<0 && x>0)){
+        
+//         return("Positive");
+//     }
+//     else{
+//         return('Negative');
+//     }
+
+
+// }
+
+// console.log(demo(15,34));
+// console.log(demo(20,-45));
+
+// function demo(n){
+//     if(n == null || n == undefined || n.substring(0,2)=="Py"){
+//         return n;
+    
+//         }
+
+//         else{
+//             return "py"+ n;
+//         }
+//     }
+// console.log(demo("Python"));
+
+// function demo(){
+//     n="Scientise7";
+//     str=n.substring(2);
+//     console.log(str);
+// }
+
+
+// function demo(){
+//     var str="scientise7";
+//     first=str.charAt(0);
+//     console.log(first);
+//     console.log(first + str + first);
+    
+// }
+
+// function demo(x){
+//     if((x % 3 == 0) || (x % 7 == 0)){
+//         return true;
+//     }
+//             else{
+//                 return false;
+//             }
+// }
+
+// console.log(demo(2));
+// console.log(demo(15));
+// console.log(demo(35))
+
+// function demo(){
+//     var str="scientise7";
+//     str2=str.substr(-3);
+//     console.log(str2 + str + str2);
+// }
+
+// function demo(n){
+//     if(n.length>=3){
+//         n_len=3;
+//          str=n.substring(n.length-3);
+//         return str + n + str;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(demo("aaa"));
+// console.log(str);
+
+// function demo(str){
+//     if(str.lenght<4){
+//         return false
+//     }
+//     start=str.substring(0,4)
+//     if(start=="Java"){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(demo("abcasdsf"));
+// console.log(demo("Java"));
+
+// let obj ={
+//     name: "umar",
+//     class: 10
+// }
+// console.log(obj);
+// obj.name='fawad';
+// console.log(obj)
+
+
+
+let array=[
+    {
+        name: "umar",
+        class: 10
+    },
+    {
+        name: "fawad",
+        class: 10
+    },
+    {
+        name: "sameer",
+        class: 10
+    },
+    {
+        name: "khan",
+        class: 10
+    },
+]
+
+//console.log(array);
+let namedArray=["umar", "sammer","hussam" , "ali"]
+var i;
+for(i=0;i<array.length;i++){
+        array[i].name=namedArray[i];
+    
+     
+}
+console.log(array);
+//console.log(array);
+// array[2].name="Ali";
+// console.log(array);
